@@ -3,14 +3,14 @@ import pyrebase
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "c6e803cd18a8c528c161eb9fcf013245248506ffb540ff70"
-firebaseConfig = {"apiKey": "AIzaSyCuC5-A-FV9FzuTSRquk0jV51yLIRLS6yQ",
-                  "authDomain": "fcrs-82ee8.firebaseapp.com",
-                  "projectId": "fcrs-82ee8",
-                  "storageBucket": "fcrs-82ee8.appspot.com",
-                  "messagingSenderId": "256458381807",
-                  "appId": "1:256458381807:web:2c872f6d89908a142fbe1a",
-                  "measurementId": "G-J7WBXG7ZBZ",
-                  'databaseURL': "https://fcrs-82ee8-default-rtdb.asia-southeast1.firebasedatabase.app/"
+firebaseConfig = {'apiKey': "AIzaSyAAgnH-E3lVhXdusCGamTAwfpB8nIh_rJw",
+                  'authDomain': "fcrs-26b41.firebaseapp.com",
+                  'projectId': "fcrs-26b41",
+                  'storageBucket': "fcrs-26b41.appspot.com",
+                  'messagingSenderId': "595206851375",
+                  'appId': "1:939176945790:web:78681964fa92d0cde8102f",
+                  'measurementId': "G-6ZNFZM4916",
+                  'databaseURL': "https://fcrs-26b41-default-rtdb.asia-southeast1.firebasedatabase.app/"
                   }
 firebase = pyrebase.initialize_app(firebaseConfig)
 auth = firebase.auth()
